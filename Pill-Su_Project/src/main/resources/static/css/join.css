@@ -1,0 +1,70 @@
+/* 전체 중앙정렬 */
+
+/* 인풋 박스 센터 정렬 */
+.containers{
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+/* 이름  */
+div {
+
+    font-size: 13px;
+    font-weight: 600;
+
+    
+}
+
+hr{
+    width: 668px;
+}
+
+/* 이름 인풋박스 */
+#u_name {
+    width: 668px;
+    height: 56px;
+}
+
+/* 연락처 인풋박스 */
+#u_phone {
+    width: 668px;
+    height: 56px;
+}
+
+/* 인증번호 div 묶음 */
+.confirmBox{
+    justify-content: space-between;
+}
+/* 인증번호 인풋박스 */
+#u_Pconfirm {
+    width: 520px;
+    height: 56px;
+}
+
+/* 인증번호 확인 버튼 */
+#p_confirmSubmit {
+    width: 140px;
+    height: 56px;
+}
+
+/* 이메일 */
+#email {
+    width: 668px;
+    height: 56px;
+}
+
+/* 비밀번호 */
+#password {
+    width: 668px;
+    height: 56px;
+}
+
+/* 생년월일 */
+#birthDate {
+    width: 668px;
+    height: 56px;
+    font-size: 25px;
+}

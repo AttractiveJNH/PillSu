@@ -1,0 +1,127 @@
+#header {
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: rgb(185, 233, 252);
+  z-index: 1;
+
+}
+
+#logo {
+  margin: 0px auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  display: flex;
+
+  position: relative;
+  margin-right: 120px;
+
+}
+
+
+.title {
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+
+.justBg {
+  background-color: white;
+  width: auto;
+  height: 200px;
+  top: 300px;
+}
+
+.bodyButton{
+  height:100%;
+  position:relative;
+}
+
+.ad_img {
+  background-size: 100%;
+  width: auto;
+  height: 400px;
+  top: 300px;
+
+  background-image: url(https://cdn.pixabay.com/photo/2023/10/01/14/40/medicine-8287535_1280.jpg);
+}
+
+.body_img {
+  background-color: white;
+  width: auto;
+  height: 700px;
+  background-image: url(https://cdn.pixabay.com/photo/2018/01/17/07/14/pharmacy-3087599_1280.jpg);
+  background-size: 100%;
+  margin: 0px auto;
+
+
+}
+
+
+c
+ .Buttons {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end; 
+  bottom:0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+} 
+
+.bodycontent {
+  background-color: white;
+  width: 1000px;
+  height: 300px;
+  margin: 0px auto;
+
+}
+
+.containText {
+  font-weight: 600;
+  font-size: 40px;
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: center;
+}
+
+.footer {
+  display: gird;
+  background-color: rgb(185, 233, 252);
+  width: auto;
+  height: 150px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.footerContentBg{
+  display:flex;
+  position: absolute;
+
+}
+.footerContent{
+  
+  background-color: white;
+  font-size: 15px;
+  text-align: left;
+  width: 500px;
+  height: 200px;
+  justify-content: right;
+}
